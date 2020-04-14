@@ -12,7 +12,7 @@
 	<xs:import namespace="http://cufxstandards.com/v4/AuditInfo.xsd" schemaLocation="AuditInfo.xsd" />
 	<xs:import namespace="http://cufxstandards.com/v4/Common.xsd" schemaLocation="Common.xsd" />
 
-	<xs:element name="auditInfotFilter" type="AuditInfoFilter">
+	<xs:element name="auditInfoFilter" type="AuditInfoFilter">
 		<xs:annotation>
 			<xs:documentation>
 				The list of filter options for services requesting audit Information data.
@@ -23,7 +23,7 @@
 		</xs:annotation>
 	</xs:element>
 
-	<xs:complexType name="AuditInformationFilter">
+	<xs:complexType name="AuditInfoFilter">
 		<xs:annotation>
 			<xs:documentation>
 				The list of audit information that should have their associated audit information events either returned or affected
