@@ -317,7 +317,7 @@
 							</xs:documentation>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="auditInfo" type="AuditInfo:AuditInfo" minOccurs="0" maxOccurs="1">
+					<xs:element name="auditInfo" type="auditInfo:AuditInfo" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>
 								The audit information for the account.
